@@ -7,8 +7,7 @@ Features
 * Zoom in and out
 * Measure time using cursors
 
-Screenshoot
-
+![Shop](https://raw.github.com/geir54/DSOplotter/master/screenshot.png)
 
 I do some work on it every time i need it but it has been standing still now since the end of 2012. So i thought I would release it to let others use it and maybe get some pull requests :)
 
