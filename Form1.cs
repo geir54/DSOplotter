@@ -161,7 +161,7 @@ namespace DSOplotter
             if (checkBox2.Checked) c_t2 = e.X;
 
             label1.Text = "t1 = " + (c_t1 / zoom) * sampleTime * 1000000; //µS
-            label1.Text = "t2 = " + (c_t2 / zoom) * sampleTime * 1000000; //µS
+            label2.Text = "t2 = " + (c_t2 / zoom) * sampleTime * 1000000; //µS
             label3.Text = "Δt = " + ((c_t2 - c_t1) / zoom) * sampleTime * 1000000;     //µS  
             pictureBox1.Refresh();
         }

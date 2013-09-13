@@ -58,7 +58,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(579, 356);
+            this.pictureBox1.Size = new System.Drawing.Size(661, 356);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
@@ -86,7 +86,7 @@
             // 
             this.hScrollBar1.Location = new System.Drawing.Point(0, 359);
             this.hScrollBar1.Name = "hScrollBar1";
-            this.hScrollBar1.Size = new System.Drawing.Size(579, 14);
+            this.hScrollBar1.Size = new System.Drawing.Size(661, 18);
             this.hScrollBar1.TabIndex = 6;
             // 
             // checkBox1
@@ -150,7 +150,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(579, 446);
+            this.ClientSize = new System.Drawing.Size(661, 446);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
