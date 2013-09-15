@@ -179,7 +179,7 @@ namespace DSOplotter
             j.DrawLine(te, c_t2, 0, c_t2, pictureBox1.Size.Height);
         }
 
-        private void numericUpDown1_Validated(object sender, EventArgs e)
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             zoom = (int)numericUpDown1.Value;
         }
