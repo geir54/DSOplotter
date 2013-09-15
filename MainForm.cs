@@ -21,7 +21,7 @@ namespace DSOplotter
         string filename="";
 
             OpenFileDialog dialog = new OpenFileDialog();
-            dialog.Filter = "XML files (*.XML)|*.xml|All files (*.*)|*.*";          
+            dialog.Filter = "XML files (*.XML)|*.XML|All files (*.*)|*.*";          
             dialog.Title = "Select a text file";
             if (dialog.ShowDialog() == DialogResult.OK) filename = dialog.FileName;
 
